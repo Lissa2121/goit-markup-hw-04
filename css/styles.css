@@ -247,6 +247,10 @@ img {
     width: calc((100% - 72px) / 4)
 }
 
+.features-icon {
+    background-color: #F4F4FD;
+}
+
 .features-subtitle {
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
