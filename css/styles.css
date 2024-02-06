@@ -57,6 +57,11 @@ img {
 
 /* =========ICON============== */
 
+svg {
+    width: 16px;
+    height: 16px;
+}
+
 .icon-list {
     display: flex;
     justify-content: center;
@@ -76,10 +81,11 @@ img {
     justify-content: center;
     background-color: #4D5AE5;
     border-radius: 50%;
-    transition-property: background-color;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition-property: background-color;
     transition-duration: 1000ms;
     transition-delay: 1000ms;
-    transition-timing-function: linear;
+    transition-timing-function: linear; */
 }
 
 .icon-icon {
@@ -88,7 +94,7 @@ img {
 
 .icon-link:hover,
 .icon-link:focus {
-    background-color: #31D0AA;
+    background-color: #404bbf;
 }
 
 /* ======================= */
@@ -98,6 +104,7 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
 
 }
 
@@ -139,7 +146,9 @@ img {
     gap: 40px;
 }
 
-.header-menu-item {}
+.header-menu-item {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .header-menu-link {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -192,7 +201,9 @@ img {
     gap: 40px;
 }
 
-.header-address-item {}
+.header-address-item {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 
 .header-address-link {
@@ -223,13 +234,14 @@ img {
 /* ======HERO======== */
 
 .hero {
+    max-width: 1440px;
     background: var(--NAVY-BLUE, #2E2F42);
     padding-top: 188px;
     padding-bottom: 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70) ), url(../images/img11.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    block-size: cover;
+    background-size: cover;
 
 }
 
@@ -271,10 +283,11 @@ img {
     margin: 0 auto;
     border-radius: 4px;
     border: none;
-    transition-property: background-color;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition-property: background-color;
     transition-duration: 1000ms;
     transition-delay: 1000ms;
-    transition-timing-function: linear;
+    transition-timing-function: linear; */
 }
 
 .hero-btn:hover {
@@ -376,9 +389,12 @@ img {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     /* border-radius: 15px; */
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.team-picture {}
+.team-picture {
+    gap: 24px;
+}
 
 .team-container {
     padding-top: 32px;
