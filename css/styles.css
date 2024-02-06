@@ -57,20 +57,16 @@ img {
 
 /* =========ICON============== */
 
-svg {
-    width: 16px;
-    height: 16px;
-}
-
 .icon-list {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 24px;
 }
 
 .icon-item {
     width: 40px;
     height: 40px;
+    
 }
 
 .icon-link {
@@ -90,6 +86,8 @@ svg {
 
 .icon-icon {
     fill: #F4F4FD;
+    width: 16px;
+    height: 16px;
 }
 
 .icon-link:hover,
@@ -391,11 +389,13 @@ svg {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     /* border-radius: 15px; */
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-picture {
-    gap: 24px;
+    /* gap: 24px; */
 }
 
 .team-container {
