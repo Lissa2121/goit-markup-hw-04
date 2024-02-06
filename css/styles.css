@@ -558,6 +558,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: -500px;
     /* display: flex;
     flex-direction: column;
     gap: 16px; */
@@ -578,7 +579,7 @@ img {
 
 .footer-icon-list {
     display: flex;
-    gap: 16px;
+   
 }
 
 .footer-icon-item {
