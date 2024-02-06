@@ -555,7 +555,7 @@ img {
 }
 
 .footer-text-icon {
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     /* display: flex;
