@@ -597,10 +597,6 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: -500px;
-    /* display: flex;
-    flex-direction: column;
-    gap: 16px; */
 }
 
 .text-icon {
@@ -610,9 +606,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
-    /* display: block; */
-    /* position: relative; */ */
-    /* margin: 0 auto; */
 }
 
 .footer-container-icon {
@@ -623,8 +616,6 @@ img {
 display: flex;
 gap: 16px;
 padding-top: 100px;
-/* padding-right: 120px; */
-/* padding-right: 670px; */
    
 }
 
@@ -644,7 +635,12 @@ padding-top: 100px;
     justify-content: center;
 }
 
-.footer-icon-link:hover
+.footer-icon-link:hover {
+    background-color: #31d0aa;
+    background-color: #31d0aa;
+}
+
+
 .footer-icon-link:focus {
     background-color: #31d0aa;
     background-color: #31d0aa;
